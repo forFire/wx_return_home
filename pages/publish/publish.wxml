@@ -1,0 +1,47 @@
+<form bindsubmit="publish">
+  <view class='start-left'>起始地点：
+    <picker mode="region" class='start-right' bindchange="bindStartNameChange">
+      <view class="picker">
+        <input placeholder='请输入始发地' bindinput='getStart' value='{{startName}}' name="start" />
+      </view>
+    </picker>
+  </view>
+  <view  class='end-left'>目的地:
+    <picker mode="region" class='end-right' bindchange="bindEndNameChange">
+      <view class="picker">
+        <input placeholder='请输入目的地' bindinput='getEnd' value='{{endName}}' name="end" />
+      </view>
+    </picker>
+  </view>
+  <view  class='start-data'>
+  起始时间：
+    <picker mode="date" class='start-data1'   start="2018-11-01" end="2019-09-01" bindchange="bindDateChange">
+    <input placeholder='请输入时间' bindinput='getEnd' value='{{date}}' name="date" />
+    </picker>
+  </view>
+
+
+  <view class='seats'>空座数：
+    <input type="text" placeholder='请输入空座位' class='seats_content' name="content" />
+  </view>
+
+  <view class='tel'>电话：
+    <input class='tel_content'  placeholder='请输入电话' type="text" name="tel" />
+  </view>
+
+<view class='content'>其他内容
+    <input class='content2'   placeholder='请输入其他内容'  type="text" name="tel" />
+  </view>
+
+  <!-- <view class='sex'>性别：
+    <radio-group name="sex1">
+      <label>
+        <radio value="man" />男</label>
+      <label>
+        <radio value="woman" />女</label>
+    </radio-group>
+  </view> -->
+  <view>
+    <button   class='sub'  type="primary" form-type="submit">发布</button>
+  </view>
+</form>

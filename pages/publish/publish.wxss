@@ -1,0 +1,166 @@
+.start-left {
+  width: 61%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+  font-size: 15px;
+}
+
+.start-right {
+  width: 61%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+  font-size: 15px;
+}
+
+.end-left {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.end-right {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.left-data {
+  position: relative;
+  width: 60%;
+  float: left;
+  text-align: left;
+  height: 70rpx;
+  font-size: 15px;
+}
+
+.start-data {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+  font-size: 15px;
+}
+.start-data1 {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+.seats {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.seats_content {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+
+.tel {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.tel_content {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.content1 {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.sex {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: left;
+  text-align: left;
+  height: 121rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.sex1 {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+  height: 120rpx;
+  text-align: left;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.sub {
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  float: center;
+  text-align: center;
+  height: 80rpx;
+   margin-bottom: 10rpx;
+  font-size: 15px;
+}

@@ -1,0 +1,68 @@
+<view class="section">
+
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view style="background-color:{{pageBackgroundColor2}}" class='bc_green'>
+      <rich-text data-user-xxx='100' nodes="{{html}}" bindtap="tap"></rich-text>
+    </view>
+    <view style="background-color:{{pageBackgroundColor1}}" class='bc_red'>
+      <rich-text data-user-xxx='200' nodes="{{html1}}" bindtap="tap"></rich-text>
+    </view>
+  </view>
+
+  <view>
+    <view class='content'>
+      <view class='left'>
+        <view>
+          <picker mode="region" class='left-left' bindchange="bindStartNameChange">
+            <view class="picker">
+              <input placeholder='请输入始发地' bindinput='getStart' value='{{startName}}' name="start" />
+               <!-- <progress class='label_line' percent="40" stroke-width="12" />  -->
+            </view>
+          </picker>
+
+          <picker mode="region" class='left-right' bindchange="bindEndNameChange">
+            <view class="picker">
+              <input placeholder='请输入目的地' bindinput='getEnd' value='{{endName}}' name="end" />
+            </view>
+          </picker>
+
+        </view>
+
+        <view>
+          <picker class='left-data' mode="date" value="{{date}}" start="2018-11-01" end="2019-09-01" bindchange="bindDateChange">
+            选择日期: {{date}}
+          </picker>
+          <button class='searchButton' bindtap="search">搜索</button>
+        </view>
+
+      </view>
+    </view>
+
+    <scroll-view class='scroll-view-item' scroll-y style="height: 300px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="red" scroll-top="1px">
+      <view class="label-1" wx:for="{{checkboxItems}}">
+        <view>
+          <text class="label-1__text">起：{{item.start}}</text>
+        </view>
+        <view>
+          <text class="label-1__text">终：{{item.end}}</text>
+        </view>
+        <view>
+          <text class="label-1__text">空座：{{item.sates}} 位</text>
+        </view>
+        <view>
+          <button class='telButton' data-mobile="{{item.tel}}" bindtap="tel">拨打电话</button>
+        </view>
+      </view>
+    </scroll-view>
+
+
+
+  </view>
+
+  <!-- <icon type="success" size="50" class="post" bindtap="onPostClick"/> -->
+  <view bindtap='adddetial'>
+    <image class="add_icon" src="../image/add.png"></image>
+  </view>
+
+
+</view>
